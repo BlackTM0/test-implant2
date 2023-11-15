@@ -41,7 +41,7 @@ font-weight: bold;
 }
 
 .nav-menu-item-btn { 
-    margin-right: 25px;
+    margin-right: 90px;
     background-color: #541388;
     padding: 15px 50px;
     font-size: 16px;
@@ -50,7 +50,10 @@ font-weight: bold;
     transition-duration: 1s;
     margin-top: 15px;
 }
-
+.calc-btn{ 
+    margin-left: 20px;
+    padding-right: 30px;
+}
 .nav-menu-item-btn:hover{ 
     background-color:#00A0E3
 }
@@ -1325,7 +1328,7 @@ margin-top: 30px;
 
  .twelve-header { 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
  }
 
  .numbers,.numbers-bottom {
@@ -1634,6 +1637,7 @@ width: 80%;
    }
   .first-section,.second-section{ 
     max-width: 375px;
+    margin: 0 auto;
   }
 
   .nav-menu { 
@@ -1811,11 +1815,24 @@ width: 80%;
     border-radius: 20px;
     color: white;
     transition-duration: 1s;
-    margin-left: 20px;
+    margin-left: 15px;
    
   
 
 }
+
+.nav-menu-item-btn-calc-btn{ 
+    margin-top: 10px;
+    background-color: #541388;
+    padding: 15px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 1s;
+    margin-left: 110px;
+   
+}
+
 .calculate-div a { 
     margin-left: 0px;
     margin-top: 0px;
@@ -2096,14 +2113,14 @@ margin: -10px auto;
     margin: 10px auto 5px;
 }
 .priem { 
-    margin-top: 20px;
+    margin-top: -40px;
 }
 .priem-text{ 
     padding: 5px 10px;
 }
 
 .eight-main-right-img{ 
-    width: 90%;
+    width: 100%;
 }
 
 .nine-section { 
@@ -2147,6 +2164,8 @@ margin: -10px auto;
 
  .header-six{ 
     margin-top: -40px;
+    margin-left: 20px;
+    width: 340px;
  }
 
  .ten-span{ 
@@ -2178,6 +2197,9 @@ margin: -10px auto;
  }
  .twelve-header{ 
 margin-top: -210px;
+  width: 340px;
+  margin-left: 20px;
+
  }
 
  .numbers { 
@@ -2200,12 +2222,12 @@ margin-top: -210px;
 
 
 .main-grid-div { 
-    width:340px; 
+    width:375px; 
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    padding-left: 40px;
+    padding-left: 50px;
    
 
 
