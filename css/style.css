@@ -1626,6 +1626,27 @@ width: 80%;
 
 
   @media (max-width: 1199px){ 
+
+   #popup,.popup-content { 
+    max-width: 340px;
+    margin-left: 15px;
+    
+   }
+   .popup-content-header{ 
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #close-btn {
+    display: block;
+    margin-top: -740px;
+    margin-left: 290px;
+    position: absolute;
+
+  }
+
+
     .container,.header { 
         max-width: 340px;
         margin: 0 auto;
