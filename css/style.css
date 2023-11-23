@@ -1488,18 +1488,18 @@ margin-top: 30px;
 }
 
 .main-14-input { 
-    width: 440px; 
+    width: 350px; 
     height: 50px;
     border-radius: 15px;
 }
 
 .main-14-input::placeholder{ 
-    font-size: 20px;
+    font-size: 16px;
     color: gray;
     text-align: center;
 }
 
-.btn-send { 
+.btn-send{ 
    
     border-radius: 15px;
     background-color: #541388;
@@ -1507,13 +1507,12 @@ margin-top: 30px;
     color: white;
     margin-left: 20px;
     font-size: 18px;
-    padding: 13px 12px;
-
-  
-
+    padding: 13px 20px;
 
 
 }
+
+
 .btn-send:hover { 
     background-color: #00A0E3;
 }
@@ -1602,30 +1601,111 @@ width: 80%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color:#00a0e1;
     padding: 20px;
     border-radius: 15px;
-    width:1250px; 
+    width: 700px; 
+    padding: 20px 40px ;
   
   }
+
+  .popup-form{ 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 30px;
+
+  }
   
+  .popup-header { 
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+   line-height: 140%;
+  }
 
   
   #close-btn {
     display: block;
-    margin-top: -640px;
-    margin-left: 1200px;
+    margin-top: -245px;
+    margin-left: 630px;
     position: absolute;
 
   }
 
-  .popup-content-header{ 
-    margin-left: 250px;
-  }
+ .popup-input { 
+    width: 250px;
+    height: 45px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
 
 
+ }
+ .popup-input::placeholder { 
+    color:gray; 
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+ }
+
+ .btn-popup { 
+    background-color: #541388;
+    border-radius: 15px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 300px;
+ 
+
+ }
+
+ .btn-popup:hover { 
+    box-shadow: 8px 8px 20px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .nav-menu-item-btn-calc-btn { 
+    border-radius: 15px;
+    background-color: #541388;
+    transition-duration: 1s;
+    color: white;
+    margin-left: -50px;
+    font-size: 18px;
+    padding: 13px 20px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
 
   @media (max-width: 1199px){ 
+    .popup-form{ 
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-bottom: 30px;
+    
+      }
+      
+      .popup-header { 
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+       line-height: 140%;
+       text-align: center;
+      }
+    .nav-menu-item-btn-calc-btn { 
+        border-radius: 15px;
+        background-color: #541388;
+        transition-duration: 1s;
+        color: white;
+        margin-left: -50px;
+        font-size: 12px;
+        padding: 10px 15px;
+        margin-right: 0;
+        margin-top: 10px;
+    }
 
    #popup {
     position: fixed;
@@ -1644,16 +1724,42 @@ width: 80%;
     background-color: #00A0E3;
     
    }
-   .popup-content-header{ 
-    margin-left: 0px;
-    font-size: 16px;
+   .popup-input { 
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+
+ }
+ .popup-input::placeholder { 
+    color:gray; 
+    padding: 10px;
+    font-size: 14px;
     text-align: center;
-  }
+ }
+
+ .btn-popup { 
+    background-color: #541388;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding: 10px 25px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 240px;
+    margin-top: 20px;
+ 
+
+ }
 
   #close-btn {
     display: block;
     
-    margin-top: -630px;
+    margin-top: -310px;
     margin-left: 270px;
     position:fixed;
  
@@ -2368,8 +2474,8 @@ margin-top: -210px;
     color: white;
 
     font-size: 16px;
-    padding: 5px 10px;
-    margin: 30px 0px  5px 45px ;
+    padding: 15px 20px;
+    margin: 25px 0px  0px 45px ;
 
 }
 
